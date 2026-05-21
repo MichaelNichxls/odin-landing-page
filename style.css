@@ -42,8 +42,10 @@ ul {
   font-weight: 900;
 }
 
+.header .nav a,
 .hero .secondary,
-.header .nav a {
+.cta .secondary,
+button.signup {
   text-decoration: none;
   color: #e5e7eb;
   font-size: 18px;
@@ -114,5 +116,28 @@ button {
   text-align: right;
   color: #1f2937;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 24px;
+  margin-right: 36px;
+}
+
+.cta {
+  background-color: #3882f6;
+  border-radius: 8px;
+  margin: 64px 96px;
+  padding: 36px 72px;
+}
+
+.cta .action {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta .main {
+  color: #e5e7eb;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cta button.signup {
+  border: 2px solid
 }
