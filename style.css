@@ -97,3 +97,22 @@ button {
   width: 144px;
   height: auto;
 }
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 96px 172px;
+}
+
+.quote .text {
+  color: #1f2937;
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.quote .reference {
+  text-align: right;
+  color: #1f2937;
+  font-weight: bold;
+  font-size: 36px;
+}
